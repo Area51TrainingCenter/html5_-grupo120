@@ -1,0 +1,62 @@
+/* selectores */
+
+/* tag */
+
+p{
+  font-family: monospace;
+
+}
+/*
+p{
+	color: orange;
+}
+
+a{
+	color: red;
+}*/
+
+/** class **/
+
+.texto1{
+	color: green;
+}
+
+
+
+.texto2{
+	color: purple;
+	
+}
+
+.texto3{
+	color: maroon;
+
+}
+
+.item1{
+	color: red;
+	font-weight: bold;
+
+}
+
+
+.bold{
+	font-weight: bold;
+}
+
+
+/** ID **/
+#parrafo1{
+	color: yellow;
+}
+.opc1{
+	color: orange!important;
+}
+p{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+}
+
