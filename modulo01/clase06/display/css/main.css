@@ -1,0 +1,29 @@
+.texto1{
+	background-color: pink;
+	width: 100px;
+	height: 100px;
+}
+.texto2{
+	background-color: yellow;
+	width: 500px;
+	height: 500px;
+}
+.texto3{
+	background-color: skyblue
+}
+.texto4{
+	background-color: tomato
+}
+
+/** display : Block **/
+/*
+ocupa todo el ancho de la fila
+puedo modificar sus dimensiones
+
+*/
+
+/** display : inline **/
+/* 
+ocupa solo su contenido 
+no puedo modificar sus dimensiones
+*/
