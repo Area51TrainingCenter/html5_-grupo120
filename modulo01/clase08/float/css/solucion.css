@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+.contenedor{
+	width: 1024px;
+	margin:0 auto;
+	background-color: gray;
+}
+.box1{
+	width: 1024px;
+	height: 100px;
+	background-color: orange;
+}
+.box2{
+	width: 512px;
+	height: 400px;
+	background-color: red;
+	float: left;
+}
+
+.box3{
+	width: 512px;
+	height: 300px;
+	background-color: blue;
+		float: right;
+}
+
+
+
+.limpiador{
+	clear: both;
+}
+
+div.box4{
+	width: 300px;
+	height: 250px;
+	background-color: skyblue;
+	float: left;
+	margin-right: 62px;
+}
+
+.contenedor div.nomargin{
+	margin-right: 0;
+}
+
+.box5{
+
+}
+.box6{
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+	float: left;
+}
+.box7{
+	width: 100px;
+	height: 100px;
+	background-color: black	;
+	float: right;
+}

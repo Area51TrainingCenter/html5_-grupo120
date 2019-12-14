@@ -1,0 +1,7 @@
+.img-portada{
+	width: 540px;
+	height: 750px;
+	object-fit: cover;
+	/*object-position: 0px 100px;*/
+	object-position: center;
+}
