@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+	/* anula el compartamiento de agregar a la dimension de los elementos cuando se utiliza el padding o border*/
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+body{
+	font-family: arial;
+}
+.blog{
+	background-color: #e2e2e2;
+}
+.contenedor{
+	width: 1265px;
+
+	margin: 0 auto;
+	padding: 110px 70px;
+}
+
+.item-big{
+	width: 540px;
+	float: left;
+}
+.item-big .foto{
+	width: 540px;
+	height: 520px;
+	object-fit: cover;
+	object-position: center;
+	vertical-align: top;
+
+}
+
+.category{
+background-color: red;
+color: white;
+font-weight: bold;
+margin-top: 40px;
+display: inline-block;
+margin-bottom: 25px;
+padding: 8px 22px;
+text-transform: uppercase;
+}
+
+.title-new{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 35px;
+}
+
+.detail-new{
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+
+.over-detail{
+	/*background-color: yellow;*/
+
+	/*	border:10px solid black;
+		border-top: 0px;*/
+}
+
+
+.lateral-news{
+	width: 550px;
+	float: right;
+}
+.item-row{
+
+	margin-bottom: 50px
+}
+
+.item-row .foto{
+	width: 160px;
+	height: 145px;
+	object-fit: cover;
+	object-position: center;
+	float: left;
+
+}
+
+.clear{
+	clear: both;
+}
+
+
+.detail-item-row{
+float: left;
+
+width: 390px;
+padding-left: 30px;
+}
+
+.detail-item-row .category{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.detail-item-row .title-new{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+.header-site{
+	height: 94px;
+	background-color: skyblue;
+}
+.contenedor{
+	width: 1200px;
+	margin:0 auto;
+
+	
+}
+
+.lyt-header{
+	height: 94px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-site{
+	width: 150px;
+}
+
+.box-logo{
+
+}
+.nav-site{
+
+display: flex;
+align-items: center;
+}
+.nav-site ul{
+	display: flex;
+	align-items: center;
+}
+
+.nav-site ul li{
+
+	padding: 10px 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.caja-foto{
+	
+			background-color: red;
+			border-radius: 50%;
+			width: 400px;
+			height: 400px;
+			overflow: hidden;
+		}
+		.caja-foto:hover .foto{
+				transform:scale(1.2);
+			opacity: 1;
+		}
+		.foto{
+			width: 400px;
+			height: 400px;
+			transition:all 0.4s linear;
+			opacity: 0.3;
+		}
+	</style>
+</head>
+<body>
+
+<div class="caja-foto">
+	<img class="foto" src="perfil.jpg">
+</div>
+</body>
+</html>
