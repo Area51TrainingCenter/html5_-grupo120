@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="contenido">
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2"></div>
+				<div class="box3"></div>
+		</div>
+	</div>
+	<div class="contenido2">
+		<div class="box-centro"></div>
+	</div>
+</body>
+</html>
+
+<style type="text/css">
+	.contenido{
+		width: 600px;
+		height: 600px;
+		background-color: yellow;
+		position: relative;
+	}
+	.box{
+		width: 400px;
+		background-color: orange;
+		height: 400px;
+		position: relative;
+
+	}
+	.box1{
+		width: 140px;
+		height: 140px;
+		background: black;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 10;
+		}
+	.box2{
+		width: 100px;
+		height: 100px;
+		background: red;
+		position: absolute;
+		left:0px;
+		top: 0px;
+		/*top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;*/
+		z-index: 20;
+
+
+	}
+
+	.box3{
+		width: 120px;
+		height: 120px;
+		background: green;
+		position: absolute;
+		left:0px;
+		top: 0px;
+		/*top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;*/
+		z-index:12; 
+
+
+
+	}
+
+	.contenido2{
+		width: 700px;
+		height: 700px;
+		background-color: pink;
+		position: relative;
+		margin:50px;
+	}
+	.box-centro{
+		width: 200px;
+		height: 200px;
+		background-color: black;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -100px;
+		margin-top: -100px;
+	}
+</style>
