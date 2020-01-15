@@ -1,0 +1,75 @@
+/* depende del tamaño de la pantalla en la que me encuentro */
+
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+.contenedor{
+	width: 1024px;
+	height: 500px;
+	margin:0 auto;
+	padding: 20px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+
+	.contenedor{
+		width: 100%;
+		background-color: blue;
+	}
+
+
+}
+@media screen and (min-width: 501px) and (max-width: 800px){
+
+	.contenedor{
+		width: 100%;
+		
+		background-color: green;
+	}
+
+
+}
+@media screen and (min-width: 801px) and (max-width: 1023px){
+
+	.contenedor{
+		width: 100%;
+	
+		background-color: orange;
+	}
+
+
+}
+
+
+
+/*
+// 0 - 1024
+@media (max-width: 1024px){
+	.contenedor{
+		width: 100%;
+		padding: 20px;
+		background-color: orange;
+		border:20px solid black;
+	}
+}
+// 0 - 800
+@media (max-width: 800px){
+	.contenedor{
+
+		background-color: red;
+	}
+}
+// 0 - 600
+@media (max-width: 600px){
+	.contenedor{
+		margin:10px;
+		background-color: blue;
+	}
+}
+
+*/

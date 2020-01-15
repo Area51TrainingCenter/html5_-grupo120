@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<meta name="viewport" content="width=device-width, user-scalable=no,initial-sacale=1">
+
+</head>
+<body>
+
+<div class="contenedor">
+	<div class="item">
+		<img src="https://via.placeholder.com/490x400">
+		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </h2>
+	</div>
+
+	<div class="item">
+		<img src="https://via.placeholder.com/490x400">
+		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </h2>
+	</div>
+</div>
+</body>
+</html>
+
+<style type="text/css">
+	*{
+		box-sizing: border-box;
+	}
+
+	.contenedor{
+		font-family: arial;
+		width: 1024px;
+		margin:0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		background-color: gray;
+
+	}
+	.item{
+			width: 490px;
+			margin:10px;
+			padding: 15px;
+
+		
+
+	}
+	@media screen and (min-width: 0px) and (max-width: 1024px){
+		.contenedor{
+			width: 100%;
+		}
+		.item{
+			width: 48%;
+			margin:1%;
+			background-color: red;
+		}
+		.item img{
+			width: 100%;
+		}
+	}
+
+	@media screen and (min-width: 0) and (max-width: 400px){
+		.item{
+			width: 98%;
+		}
+		.item h2{
+			font-size:14px;
+		}
+	}
+</style>
