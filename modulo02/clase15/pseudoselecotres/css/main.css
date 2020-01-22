@@ -1,0 +1,100 @@
+.title{
+	color: black;
+	font-family: arial;
+}
+.title:before{
+	content: "1.- ";
+	color:red;
+	background-color: green;
+	margin-right: 10px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+.title:after{
+	content: "...";
+	color: blue;
+	background-color: green;
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+
+}
+
+.lista-items{
+	list-style: none;
+}
+
+.lista-items li{
+	background-color: skyblue;
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 10px;
+}
+.lista-items li:before{
+	content: "-";
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.vineta{
+	width: 20px;
+	height: 20px;
+}
+
+
+.lista-opciones{
+	list-style: none;
+}
+.lista-opciones li{
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 10px;
+}
+
+.lista-opciones li:before{
+	/*content:"<img src=''>";*/
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e0/Check_green_icon.svg");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	left: 5px;
+	top: 2px;
+}
+
+
+.tab{
+list-style: none;
+}
+
+.tab li{
+	margin-bottom: 10px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	color: black;
+	text-align: left;
+	font-family: arial;
+	position: relative;
+}
+
+.tab li:after{
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9d/Arrow-down.svg");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	right: 10px;
+	top: 40%;
+}

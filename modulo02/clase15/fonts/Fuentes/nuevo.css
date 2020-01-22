@@ -1,0 +1,32 @@
+@font-face{
+  font-family: "pepito";
+  src: url('fonts/lubalin_graph_std_demi.eot');
+  src: url('fonts/lubalin_graph_std_demi.eot?#iefix') format('embedded-opentype'),
+       url('fonts/lubalin_graph_std_demi.ttf') format('truetype');
+}
+.titulo2{
+	font-family: "pepito";
+}
+@font-face{
+  font-family:'tipo2';
+  src: url('fonts/lubalin_graph_std_book.eot');
+  src: url('fonts/lubalin_graph_std_book.eot?#iefix') format('embedded-opentype'),
+      url('fonts/lubalin_graph_std_book.ttf') format('truetype');
+}
+.titulo3{
+	font-family: "tipo2";
+}
+@font-face {
+    font-family: 'tipo3';
+    src: url('fonts/GROBOLD-webfont.eot');
+    src: url('fonts/GROBOLD-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GROBOLD-webfont.woff2') format('woff2'),
+         url('fonts/GROBOLD-webfont.woff') format('woff'),
+         url('fonts/GROBOLD-webfont.ttf') format('truetype'),
+         url('fonts/GROBOLD-webfont.svg#groboldregular') format('svg');
+}
+
+.titulo4{
+	font-family: "tipo3";
+}
+
