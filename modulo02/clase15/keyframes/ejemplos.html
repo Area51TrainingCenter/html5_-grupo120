@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding: 0px;
+			box-sizing: border-box;
+
+		}
+		body{
+			font-family: arial;
+		}
+		.contenido{
+			width: 1024px;
+			margin:0 auto;
+		}
+		.item{
+			width: 400px;
+			position: relative;
+		}
+		.item img{
+			vertical-align: top;
+		}
+		.item h2{
+			padding: 10px;
+			font-weight: bold;
+			color: white;
+			background-color: black;
+		}
+		.envivo{
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			border-radius: 10px;
+			padding: 8px;
+			background-color:red;
+			font-weight: bold;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.circulo{
+			width: 15px;
+			height: 15px;
+			background-color: yellow;
+			display: inline-block;
+			border-radius: 50%;
+			margin-left: 10px;
+			animation: vivo 1s infinite;
+		}
+
+		 @keyframes vivo{
+		 	0%{
+		 		background-color: yellow;
+		 	}
+		 	50%{
+		 		background-color: red;
+		 	}
+		 	100%{
+		 		background-color: yellow;
+		 	}
+		 }
+	</style>
+</head>
+<body>
+
+	<div class="contenido">
+		<article class="item">
+			<div class="envivo">En vivo <span class="circulo"></span></div>
+			<img src="https://via.placeholder.com/400x300">
+			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm</h2>
+		</article>	
+	</div>
+
+</body>
+</html>

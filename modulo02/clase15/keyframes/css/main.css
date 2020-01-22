@@ -1,0 +1,67 @@
+/*@keyframes mov{
+	to{
+		top:0px;
+	}
+	from{
+		top:100px;
+	}
+}
+*/
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation: mov 1s infinite ;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	animation: mov 1s infinite 3s;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.box3{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	animation: mov 1s infinite 6s;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.box4{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	animation: mov 1s infinite 9s;
+	display: inline-block;
+	vertical-align: top;
+}
+
+@keyframes  mov{
+	0%{
+		margin-top: 0px;
+		opacity: 1;
+	}
+	20%{
+		margin-top: 50px;
+		opacity: 0.5;
+	}
+	50%{
+		margin-top: 100px;
+		opacity: 0;
+	}
+	80%{
+		margin-top: 50px;
+		opacity: 0.5;
+	}
+	100%{
+		margin-top: 0px;
+		opacity: 1;
+	}
+}
