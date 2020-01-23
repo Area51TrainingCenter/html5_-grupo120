@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+		box-sizing: border-box;
+
+		}
+		.contenedor{
+			width: 1024px;
+			margin:0 auto;
+		}
+		.grid{
+			display: grid;	
+			
+			grid-gap: 20px;	
+			grid-template-areas: "header header header"
+								"sidebar contenido contenido"
+								"sidebar wideget1 widget2"
+								"footer footer footer";
+	
+		}
+		.box{
+			width: 100%;
+			border: 2px solid blue;
+			background-color: red;
+			color: white;
+			padding:20px;
+			text-align: center;
+			font-family: arial;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.item1{
+			background-color: orange;
+			grid-column-start: header;
+			grid-column-end: header;
+			grid-column: header;
+			grid-area: header;
+
+			/*grid-area: header;*/
+		}
+		.item2{
+			background-color: blue;
+			grid-column-start: sidebar;
+			grid-column-end: sidebar;
+			grid-column: sidebar;
+
+
+			grid-row-start: sidebar;
+			grid-row-end: sidebar;
+			grid-row:sidebar;
+
+
+
+			grid-area: sidebar;
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="grid">
+			<div class="box item1">1</div>
+			<div class="box item2">2</div>
+			<div class="box item3">3</div>
+			<div class="box item4">4</div>
+			<div class="box item5">5</div>
+			<div class="box item6">6</div>
+			<div class="box">7</div>
+			<div class="box">8</div>
+			<div class="box">9</div>
+			<div class="box">10</div>
+			<div class="box">11</div>
+			<div class="box">12</div>
+
+		</div>
+	</div>
+</body>
+</html>
