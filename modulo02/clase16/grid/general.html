@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Document</title>
+		<meta content="width=device-width,minimum-scale=1.0" name="viewport">
+	<style>
+		*{
+		box-sizing: border-box;
+
+		}
+		
+		.grid{
+			display: grid;	
+			/* definiendo columnas */
+			grid-template-columns: repeat(3,1fr);
+			grid-template-rows: 100px;
+			/* espaciado entre columnas */
+			grid-column-gap:10px;
+			/* espaciado entre filas */
+			grid-row-gap: 10px;
+			
+
+		}
+		.contenedor{
+
+			background-color: gray;
+			max-width: 1024px;
+			margin:0 auto;
+			display: grid;
+			grid-template-columns: minmax(200px,1fr) 1fr 1fr 1fr 1fr; 
+			grid-template-rows: 100px 100px 100px 100px;
+			/*grid-template-rows: minmax(100px,auto);*/
+			/* = grid-template-columns: 1fr 1fr 1fr 1fr;*/
+
+			/*grid-row-gap: 10px;
+			grid-column-gap: 20px;*/
+			grid-gap: 20px;
+			/*grid-template-columns:30% 30% 25% 15%;*/
+			/*grid-template-rows: 200px auto;*/
+			/*grid-template-rows: repeat(4,200px); */
+
+
+		}
+
+		.box{
+			background-color: skyblue;
+			color: black;
+			padding:20px;
+			text-align: center;
+			font-family: arial;
+			font-size: 30px;
+			font-weight: bold;
+			border:1px solid black;
+
+		}
+
+		.header{
+			background-color: orange;
+			
+			grid-column: span 2;
+			grid-row: span 2;
+
+			/*grid-column-start:1 ;
+			grid-column-end:-1 ;*/
+			/*grid-column: 1/-1;*/
+			/*	
+			grid-row-start:1 ;
+			grid-row-end:2 ;*/
+			/*grid-row:1/2;*/
+		}
+		.section{
+			background-color: blue;
+			grid-column: span 3;
+			/*grid-column-start: 1;
+			grid-column-end: 4;
+			background-color: blue;
+			grid-row-start: 2;
+			grid-row-end: 4;*/
+
+		}
+		.aside{
+			background-color: green;
+			/*background-color: green;
+			grid-column-start: 4;
+			grid-column-end: -1;
+			grid-row-start: 2;
+			grid-row-end: 7;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+			<div class="box header">1</div>
+			<div class="box section">2</div>
+			<div class="box aside">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">6</div>
+			<div class="box">7</div>
+			<div class="box">8</div>
+			<div class="box">9</div>
+			<div class="box">10</div>
+			<div class="box">11</div>
+			<div class="box">12</div>	
+	</div>
+</body>
+</html>
