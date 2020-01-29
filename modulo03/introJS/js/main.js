@@ -245,10 +245,24 @@ var obj_alumno2={
 	apellidos:"Pacori",
 	telefono:"987654999",
 	estado:true,
-	correo:"jtorricelli@gmail.com"
+	correo:"raul@gmail.com"
 }
 
 
+var alumnos_lista=[obj_alumno1,obj_alumno2];
 
+alumnos_lista[0].nombres
+obj_alumno1.nombres
 
+var buscado=alumnos_lista[0] //
+/*
+var obj_alumno1={
+	nombres:"Jc",
+	apellidos:"Ramos Torriccelli",
+	telefono:"987654345",
+	estado:true,
+	correo:"jtorricelli@gmail.com"
+}*/
+buscado.nombres;
+buscado.apellidos;
 
