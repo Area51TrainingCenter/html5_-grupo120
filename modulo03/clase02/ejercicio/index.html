@@ -10,6 +10,16 @@
 			justify-content: space-between;
 			flex-wrap: wrap;
 		}
+		.list .item-movie{
+			width: 100%
+		}
+		.grid .item-movie{
+			width: 300px;
+		} 
+
+
+
+
 		.item-movie{
 			width:300px;
 			margin-bottom: 30px;
@@ -25,6 +35,9 @@
 			text-align: center;
 
 		}
+		ul li{
+			cursor: pointer;
+		}
 	</style>
 </head>
 <body>
@@ -37,23 +50,22 @@
 				<div class="row">
 					<div class="col-md-4">
 					<ul class="list-group">
-					  <li class="list-group-item">Noticias</li>
-					  <li class="list-group-item">Técnologia</li>
-					  <li class="list-group-item">Contácto</li>
-					  <li class="list-group-item">Tendencia</li>
+					  <li class="list-group-item" id="noticias">Noticias</li>
+					  <li class="list-group-item" id="tecnologia">Técnologia</li>
+					  <li class="list-group-item" id="contacto">Contácto</li>
+					  <li class="list-group-item" id="tendencia">Tendencia</li>
 					 
 					</ul>
 
 				</div>
 				<div class="col-md-8">
 					<div> 
-						<h2>Noticias:</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis placeat tempora, magnam dolorem quas quisquam fuga, magni sint culpa recusandae, quis architecto rem est delectus? Incidunt non labore nihil soluta!</p>
+						<h2 id="titulo-contenido">Bienvenido a la sección de Noticias</h2>
+						<p id="parrafo-contenido">aquí veras un resumen de las noticias</p>
 					</div>
 				</div>
 
 				</div>
-
 
 			</div>
 			
@@ -134,5 +146,7 @@
 		<div class="row"></div>
 	</section>
 </div>	
+
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
