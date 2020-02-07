@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.rojo{
+			color: red;
+		}
+		.verde{
+			color: green;
+		}
+		.header-site{
+			background-color: black;
+		}
+		.nav-site ul{
+			text-align: center;
+		}
+		.nav-site ul li{
+			color: white;
+			padding: 10px 20px;
+			font-family: arial;
+			display: inline-block;
+			vertical-align: top;
+			transition: all 0.3s linear;
+		}
+		.activado{
+			color: white;
+			background-color: red;
+		}
+		.estado{
+			display: inline-block;
+			padding: 20px 30px;
+			font-family: arial;
+			color: white;
+			background-color: black;
+			margin:20px;
+		}
+		.prendido{
+			background-color: pink;
+			color: black;
+		}
+		.contenido-info{
+			font-family: arial;
+			text-align: center;
+		}
+		.tab{
+			text-align: center;
+		}
+		.tab li{
+			display: inline-block;
+			padding: 20px 40px;
+			margin: 10px;
+			font-family: arial;
+		}
+
+		.hide{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<header class="header-site">
+		<nav class="nav-site">
+			<ul>
+				<li id="item1">Item1</li>
+				<li id="item2">Item2</li>
+				<li id="item3">Item3</li>
+				<li id="item4">Item4</li>
+				<li id="item5">Item5</li>
+				<li id="item6">Item6</li>
+				<li id="item7">Item7</li>
+				<li id="item8">Item8</li>
+				<li id="item9">Item9</li>
+
+
+			</ul>
+		</nav>
+	</header>
+	<h1 id="titulo">Titulo</h1>
+	<span id="verde">Texto verde</span>
+	<span id="rojo">Texto Rojo</span>
+
+	<br>
+	<span class="estado">Estado</span>
+
+	<div>
+		<ul class="tab">
+			<li id="tab-noticias">Noticias</li>
+			<li id="tab-deportes">Deportes</li>
+		</ul>
+	</div>
+	<div  id="content-noticias" class="contenido-info hide">
+		<h2>Contenido de Noticias</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div  id="content-deportes" class="contenido-info hide">
+		<h2>Contenido de deportes</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
