@@ -43,6 +43,12 @@ a,a:hover{
 	flex-direction: column;
 	
 }
+.header-fixed{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
 
 .text-big{
 font-size: 40px;
@@ -135,9 +141,14 @@ margin-top: 20px;
 .item{
 	width: 300px;
 	margin-bottom: 20px;
-
+	opacity: 0;
+	transition: all 0.4s linear;
+}
+.item.show-item{
+	opacity: 1;
 }
 .item img{
+
 	width: 100%;
 }
 .item p {
@@ -146,6 +157,11 @@ margin-top: 20px;
 	color: gray;
 	margin-top: 15px;
 
+}
+
+.item p::selection{
+	background-color: white;
+	color: white;
 }
 .item strong{
 	font-weight: bold;
