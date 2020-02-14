@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+a,a:hover{
+	text-decoration: none;
+	
+}
+
+.hidden{
+	overflow: hidden;
+}
+.container{
+	width: 1024px;
+	margin:0 auto;
+}
+.nav-site{
+	background-color: black;
+}
+.nav-site ul{
+	text-align: center;
+}
+.nav-site ul li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 20px;
+	color: white;
+	font-weight: bold;
+}
+
+.info{
+	
+	background-color: #c4e5f3;
+}
+
+.lyt-info{
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.header-fixed{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.text-big{
+font-size: 40px;
+font-weight: bold;
+color: white;
+text-shadow: 1px 1px 3px black;
+text-transform: uppercase;
+}
+.text-subtitle{
+line-height: 1.4;
+font-size: 20px;
+margin-top: 20px;
+
+
+
+}
+
+.btn{
+	margin-top: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+
+	background-color: gray;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.modal-bloque{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+
+.contenido-modal{
+	width: 600px;
+	margin:50px auto;
+	padding: 20px;
+	border-radius: 30px;
+	background-color: white;
+	position: relative;
+
+}
+
+.title-modal{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.cuerpo-modal{
+	font-size: 16px;
+	line-height: 1.4;
+	color: gray;
+}
+
+.cuerpo-modal p{
+	margin-bottom: 15px;
+}
+
+.img-modal{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cerrar-modal{
+	background: black;
+	color: white;
+	font-weight: bold;
+	padding: 10px 15px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.listado{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+}
+.item{
+	width: 300px;
+	margin-bottom: 20px;
+
+	transition: all 0.4s linear;
+}
+.item.show-item{
+	opacity: 1;
+}
+.item img{
+
+	width: 100%;
+}
+.item p {
+	line-height: 1.4;
+	font-size: 16px;
+	color: gray;
+	margin-top: 15px;
+
+}
+
+.item p::selection{
+	background-color: white;
+	color: white;
+}
+.item strong{
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #9c9c9c;
+	color: white;
+	padding: 10px;
+}
+.filtro{
+	padding-top: 80px;
+
+}
+.tab ul {
+	text-align: center;
+}
+.tab li{
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 15px;
+
+}
+
+.title-clientes{
+	font-weight:bold;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 40px;
+}
+.sec-cliente{
+	padding-bottom: 100px;
+}
+
+.lista-proyectos{
+	display: flex;
+	justify-content: space-between;
+}
