@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+	/*
+	var fecha=new Date();
+	var fecha_login=localStorage.fecha_login
+	var fecha_actual=fecha.getDate();
+	var dif=fecha_actual-fecha_login
+	if(dif>1){
+		localStorage.clear();
+	}
+	*/
+	//document.cookie="usuario=jc,nombre=juancarlos"
+
+	console.log(localStorage.login);
+	localStorage.login="true"
+	var fecha=new Date();
+	var mes=fecha.getMonth();
+	var dia=fecha.getDate();
+	var anio=fecha.fullYear();
+	localStorage.fecha_login=dia;
+
+	console.log(localStorage.login); // true
+	localStorage.clear();
+	localStorage.dni="123123123";
+	localStorage.id="123123";
+	localStorage.apellido="ramos";
+
+
+	console.log(sessionStorage.usuario);
+	sessionStorage.usuario="admin"
+	console.log(sessionStorage.usuario);// admin
+	sessionStorage.clear();
+</script>
