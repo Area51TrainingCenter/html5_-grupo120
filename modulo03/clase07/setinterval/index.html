@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+	
+	var intervalo=setInterval(function(){
+		obtenerDatos();
+	},3000)
+
+	function obtenerDatos(){
+		let url="https://jsonplaceholder.typicode.com/users"
+		$.getJSON(url,function(data){
+			console.log(data);
+		})
+	}
+	//clearInterval(intervalo)
+</script>
